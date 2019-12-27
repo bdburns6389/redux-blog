@@ -1,3 +1,27 @@
 {
- "blogs": [{"id": 1, "author": "Brian", "title": "New World", "description": "it really is a brand new world out there"}]
+  "blogPosts": [
+    {
+      "id": 1,
+      "author": { "id": 1, "name": "Brian" },
+      "title": "A blog post by Brian",
+      "blogBody": "This is a whole great big blog body",
+      "friends": [
+        { "id": 1, "name": "Manuela" },
+        { "id": 2, "name": "Barber Wiley" },
+        { "id": 3, "name": "Head Fuentes" }
+      ],
+      "category": { "id": 1, "name": "drama" }
+    },
+    {
+      "id": 2,
+      "author": { "id": 2, "name": "Tom" },
+      "title": "A blog post by Brian",
+      "blodBody": "This is a post by Tom, but of course it is",
+      "friends": [
+        { "id": 2, "name": "Barber Wiley" },
+        { "id": 4, "name": "Kevin Feige" }
+      ],
+      "category": { "id": 2, "name": "comedy" }
+    }
+  ]
 }
