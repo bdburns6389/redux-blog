@@ -1,5 +1,5 @@
 {
-  "blogPosts": [
+  "blogs": [
     {
       "id": 1,
       "author": { "id": 1, "name": "Brian" },
@@ -16,7 +16,7 @@
       "id": 2,
       "author": { "id": 2, "name": "Tom" },
       "title": "A blog post by Brian",
-      "blodBody": "This is a post by Tom, but of course it is",
+      "blogBody": "This is a post by Tom, but of course it is",
       "friends": [
         { "id": 2, "name": "Barber Wiley" },
         { "id": 4, "name": "Kevin Feige" }
