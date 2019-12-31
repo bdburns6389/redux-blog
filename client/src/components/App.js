@@ -11,17 +11,21 @@ function App() {
   }, []);
 
   const renderList = () => {
-    return blogs.map(blog => {
+    return blogs.map(({ id, title, blogBody }) => {
       return (
-        <div>
-          <div>{blog.title}</div>
-          <div>{blog.blogBody}</div>
+        <div key={id}>
+          <div>{title}</div>
+          <div>{blogBody}</div>
         </div>
       );
     });
   };
 
-  return <div>{renderList()}</div>;
+  return (
+    <>
+      <div>{renderList()}</div>
+    </>
+  );
 }
 
 export default App;
