@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchBlogs());
   }, []);
-
+// adding needed comment
   const renderList = () => {
     return blogs.map(({ id, title, blogBody }) => {
       return (
